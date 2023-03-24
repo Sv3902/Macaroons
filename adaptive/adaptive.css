@@ -1,0 +1,484 @@
+/*1230-2559*/
+@media screen and (max-width: 2560px) {
+    /*.main-picture::after,*/
+    /*.main-picture::before {*/
+    /*    content: '';*/
+    /*    position: absolute;*/
+    /*    right: 278px;*/
+    /*    bottom: 194px;*/
+    /*}*/
+}
+
+/*1024-1229*/
+@media screen and (max-width: 1229px){
+    .main-picture::after,
+    .main-picture::before {
+        content: '';
+        position: absolute;
+        right: 115px;
+        bottom: 87px;
+    }
+
+    .main-picture {
+        width: 529px;
+    }
+
+    /*.main-picture img {*/
+    /*    max-width: 100%;*/
+    /*}*/
+
+}
+
+@media screen and (max-width: 1045px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .gift {
+        position: fixed;
+        bottom: 37px;
+        right: 35px;
+    }
+
+    .benefits .container {
+        grid-column-gap: 26px;
+    }
+
+    .shop-macaroons .container {
+        display: grid;
+        grid-column-gap: 29px;
+        grid-template-columns: repeat(auto-fill, 263px);
+        grid-template-rows: repeat(auto-fill, 230px);
+        row-gap: 135px;
+        justify-content: center;
+    }
+
+    .shop-macaroons-title {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        font-size: 45px;
+    }
+
+    .shop-macaroons-items {
+        margin: auto;
+    }
+
+    .order-macaroons{
+        overflow: hidden;
+    }
+
+    .order-image {
+        padding: 168px 10px 120px 0;
+        position: relative;
+    }
+
+}
+
+/*425 - 767*/
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 728px;
+    }
+
+    .header .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        padding: 38px 103px 30px 14px;
+    }
+
+    .main {
+        padding: 0 0 413px 0;
+    }
+
+    .header .phone {
+        display: none;
+    }
+
+    .main-title {
+        width: 589px;
+        padding-top: 100px;
+    }
+
+    .main-picture::after,
+    .main-picture::before {
+        content: '';
+        position: absolute;
+        right: 82px;
+        bottom: -337px;
+    }
+
+    .main-picture {
+        padding-top: 400px;
+    }
+
+    .main-text {
+        padding-bottom: 80px;
+    }
+
+    .main-picture img {
+        position: absolute;
+        top: 339px;
+        left: -420px
+    }
+
+    .benefits .container {
+        display: grid;
+        /*grid-column-gap: 87px;*/
+        grid-template-columns: 332px;
+        justify-content: center;
+    }
+
+    .benefits-image {
+        /*padding-top: 64px;*/
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        margin: auto;
+    }
+
+    .benefits-image img {
+        width: 302px;
+    }
+
+    .benefits-title-text h2 {
+        text-align: center;
+        width: 415px;
+        margin: auto;
+        font-size: 38px;
+        line-height: 1.222;
+        padding-left: 0;
+    }
+
+    .benefits-text-message {
+        margin: auto;
+        /*max-width: 668px;*/
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .benefits-item {
+        margin: auto;
+        padding: 44px 0 40px 0;
+    }
+
+    .number {
+        margin: auto;
+    }
+
+    .benefits-item-title {
+        text-align: center;
+    }
+
+    .benefits-item-text {
+        text-align: center;
+    }
+
+    .order-image {
+        order: 2;
+        margin-top: 393px;
+        padding: 0;
+        margin-left: -56px;
+    }
+
+    .order-image .macaroon {
+        width: 352px;
+    }
+
+    .order-forms {
+        order: 1;
+    }
+
+    .order-title {
+        width: 407px;
+    }
+
+    .order-input {
+        padding-right: 25px;
+        width: 234px;
+    }
+
+    .order-image-klnk {
+        top: -78px;
+    }
+
+    .order-image-klnk-2 {
+        top: -116px;
+        left: 169px;
+    }
+
+    .shop-macaroons .container {
+        display: grid;
+        grid-column-gap: 29px;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .shop-macaroons-items.tree {
+        grid-column: 1 / 2;
+    }
+
+    .shop-macaroons-title {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        font-size: 45px;
+    }
+
+    .gift {
+        position: fixed;
+        bottom: 19px;
+        right: 440px;
+    }
+}
+
+/*375 - 424*/
+@media screen and (max-width: 374px){
+    .main {
+        padding: 0 0 267px 0;
+    }
+
+    .main-picture img {
+        top: 466px;
+        left: -306px;
+        width: 250px;
+    }
+
+    .main-picture::after,
+    .main-picture::before {
+        content: '';
+        position: absolute;
+        right: 24px;
+        bottom: -345px;
+    }
+
+    .main-title {
+        text-align: center;
+        width: 345px;
+        font-weight: 100;
+        font-size: 32px;
+        padding-left: 0;
+        padding-right: 5px;
+    }
+
+    .main-text {
+        text-align: center;
+        width: 345px;
+        padding-left: 0;
+    }
+
+    .main-button {
+        text-align: center;
+        width: 345px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    /*.benefits .container {*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 165px 165px;*/
+    /*    grid-column-gap: 1px;*/
+    /*}*/
+
+    .benefits-title-text h2 {
+        width: 345px;
+        font-size: 30px;
+        font-weight: 100;
+        padding-left: 0;
+    }
+
+
+    .benefits-text-message {
+        width: 342px;
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+
+    .benefits-image {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        /*margin: auto;*/
+    }
+
+    .benefits-image img {
+        max-width: 302px;
+    }
+
+    .shop-macaroons-items {
+        max-width: 264px;
+    }
+
+    /*.benefits-items {*/
+    /*    grid-column: 1 / 2;*/
+    /*}*/
+
+    .benefits-item-title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .benefits-item {
+        max-width: 165px;
+    }
+
+    .benefits-item-text {
+        font-size: 13px;
+    }
+
+    .benefits-container-two{
+        grid-template-columns: 165px 165px;
+        grid-column-gap: 15px;
+    }
+
+
+    .shop-macaroons .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 109px;
+    }
+
+    .shop-macaroons-title h2 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        font-size: 30px;
+        width: 345px;
+        font-weight: 100;
+        padding-left: 15px;
+    }
+
+    .shop-macaroons-items {
+        margin: auto;
+    }
+
+    .shop-macaroons-items.one {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .shop-macaroons-items.two {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .shop-macaroons-items.tree {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .shop-macaroons-items.center {
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+
+
+
+    .macaroon {
+        display: none;
+    }
+
+    .order-image-klnk-2 {
+        display: none;
+    }
+
+    .order-title {
+        font-size: 30px;
+    }
+
+    .order-text {
+        font-size: 16px;
+        width: 345px;
+    }
+
+    .order-image-klnk {
+        width: 72px;
+        left: -116px;
+        top: -169px;
+    }
+
+    .btn-3 {
+        width: 290px;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        order: 2;
+    }
+
+    .burger svg {
+        fill: rgb(130, 19, 40);
+        order: 2;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+
+    .logo {
+        order: 1;
+    }
+
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+
+    .lg-footer {
+        padding: 50px 114px 40px 114px;
+    }
+
+    .footer .phone {
+        order: 2;
+        padding-bottom: 40px;
+    }
+
+    .footer-rights {
+        order: 4;
+        padding-left: 89px;
+        padding-bottom: 40px;
+    }
+
+    .footer-connection {
+        order: 3;
+        padding-bottom: 40px;
+    }
+
+}
